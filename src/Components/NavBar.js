@@ -4,10 +4,8 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="#"></a>
-
-        StoreUs
-        
+        <a className="navbar-brand" href="#">
+          StoreUs
         </a>
         <button
           className="navbar-toggler"
@@ -18,3 +16,10 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
+        <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                <a className="nav-link" href="#">
+                    Categoria 1            
